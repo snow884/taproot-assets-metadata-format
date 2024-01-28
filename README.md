@@ -1,6 +1,15 @@
 # Taproot Assets Tiramisu Metadata Format
 This repository describes metadata format for taproot assets protocol used by the Tiramisu wallet. The protocol is loosely based on the OpenSea metadata format for ERC721 or ERC1155 NFTs. https://docs.opensea.io/docs/metadata-standards
 
+Example of metadata in Tiramisu format:
+```
+{
+    "acronym": "MTC",
+    "description": "This is my test coin", 
+    "image_data": "data:image/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAABc0lEQVR4nGK5skGaAQaUnTbA2ee2JsHZ00zuwtlzLMPhbO3f/Qi9zR/g7Gch7HA2EwONwdC3gOU5UzKcY/7TCs7+eagOzj5jzg9nh3HegLPv7JWFs63vF8HZ/E2IuBn6QUT7OFjXuh7O+TAbkZbPvxeAszO+NcHZSTwX4exCgxlw9s1QCThb0P0fnD30g4jmFjAeU9oI53yMeAFnux5B2N3aJgNnb/lqAmfHB5+Esy83voezWyKM4OyhH0S0zwdnlk6Fc67ORqR3v42OcLbWUic4O79/Jpy958IEODt79xU4m4+tE84e+kFE+3zgLrodzmlb+w7O9gqphbOPCCM0GG/dCmffi1oGZz+WegBn//2PiJuhH0S0j4MVlWlwzm0FGzh7veotONsquw/OnsSHyB/WPxFxMNvOAs62QGSVYRBEtI+D8GZEPvB2QdSr0qdz4Ow8cS84u/+RKZxtLoqoJ1q3IurwbHeE3qEfRDS3ABAAAP//hnBeQ7p8R+8AAAAASUVORK5CYII="
+}
+```
+
 ## Taproot Assets Protocol
 Taproot Assets was developed by lightning labs and is in detail described here https://docs.lightning.engineering/lightning-network-tools/taproot-assets.
 
